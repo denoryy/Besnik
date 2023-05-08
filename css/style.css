@@ -1,0 +1,17 @@
+/* style */
+@import "./global.css";
+@import "./reset.css";
+@import "./header.css";
+@import "./solutions.css";
+@import "./statistics.css";
+@import "./clients.css";
+@import "./happiness.css";
+@import "./subscribe.css";
+@import "./footer.css";
+@import "./main.css";
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@700&family=Lekton:wght@700&family=Poppins:wght@600;700&display=swap");
+@font-face {
+  font-family: InterItalic;
+  src: url(../fonts/20708.otf);
+}

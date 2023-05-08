@@ -1,0 +1,59 @@
+#subscribe {
+  padding: 29px 0px;
+}
+
+#subscribe .wrapper {
+  background: url("../img/subscribe/BG.png");
+  padding: 29px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#subscribe .wrapper h2 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+#subscribe .wrapper p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.83);
+  padding-bottom: 48px;
+}
+
+#subscribe .wrapper .content {
+  padding: 51px 0px 65px 0px;
+}
+
+#subscribe .wrapper .button {
+  margin: 0px 41%;
+}
+
+@media only screen and (max-width: 1024px) {
+  #subscribe .wrapper {
+    padding: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #subscribe .wrapper {
+    padding: 10px 0px;
+  }
+
+  #subscribe .wrapper h2 {
+    font-size: 30px;
+  }
+
+  #subscribe .wrapper p {
+    font-size: 14px;
+  }
+
+  #subscribe .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #subscribe .content .button {
+    margin: 0px 0px;
+  }
+}

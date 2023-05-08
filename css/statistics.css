@@ -1,0 +1,67 @@
+#statistics {
+  background: #231a36;
+  padding: 40px 0px;
+}
+#statistics .title {
+  padding: 120px 0px 110px 0px;
+  text-align: center;
+}
+#statistics .title h2 {
+  color: #ffffff;
+  padding-bottom: 18px;
+}
+#statistics .title p {
+  color: #7b9292;
+}
+#statistics .items {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+#statistics .items h2 {
+  color: #ffffff;
+  text-align: left;
+}
+#statistics .items p {
+  text-align: left;
+}
+@media only screen and (max-width: 1024px){
+  #statistics .items{
+    padding: 0px 30px 120px 30px;
+  }
+}
+@media only screen and (max-width: 768px){
+  #statistics .title{
+    padding: 80px 0px 70px 0px;
+  }
+  #statistics h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #statistics .items{
+    padding-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 320px){
+  #statistics{
+    padding: 40px 20px;
+  }
+  #statistics .items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 40px;
+    column-gap: 87px;
+    row-gap: 26px;
+  }
+  #statistics .title{
+    padding: 60px 0px 50px 0px;
+  }
+  #statistics h2{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  #statistics p{
+    font-size: 14px;
+  }
+}

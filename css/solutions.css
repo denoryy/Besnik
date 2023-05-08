@@ -1,0 +1,104 @@
+#solutions {
+  position: relative;
+  padding-top: 82px;
+}
+#solutions .title {
+  text-align: center;
+  padding-bottom: 85px;
+}
+#solutions .title h2 {
+  padding-bottom: 10px;
+}
+#solutions .item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 140px;
+}
+#solutions .item .content h3 {
+  padding: 8px 0px 14px 0px;
+}
+#solutions .item p {
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 1070px){
+  #solutions .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #solutions .item{
+    column-gap: 120px;
+    padding: 0px 40px;
+  }
+}
+@media only screen and (max-width: 768px){
+  #solutions .title h2{
+    font-size: 35px;
+    padding-bottom: 0px;
+  }
+  #solutions .title p{
+    font-size: 14px;
+  }
+  #solutions .item .content h3{
+    font-size: 25px;
+    padding: 4px 0px 8px 0px;
+  }
+  #solutions .item p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 320px){
+  #solutions{
+    padding-bottom: 40px;
+  }
+  #solutions .item{
+    display: flex;
+    flex-direction: column;
+  }
+  #solutions .learn {
+    padding-bottom: 45px;
+  }
+  .earning{
+    display: none;
+  }
+  .likes{
+    display: none;
+  }
+  .okay{
+    display: none;
+  }
+  #solutions .item .content h4{
+    text-align: center;
+  }
+  #solutions .item .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #solutions .title{
+    padding-bottom: 60px;
+  }
+  #solutions .title h2{
+    line-height: 40px;
+    font-size: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  #solutions .title p{
+    font-size: 14px;
+    text-align: center;
+  }
+  #solutions .item .content h3{
+    font-size: 25px;
+    padding: 4px 0px 8px 0px;
+    text-align: center;
+  }
+  #solutions .item p{
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}

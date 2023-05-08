@@ -1,0 +1,74 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  overflow: hidden;
+}
+
+header #logo {
+  font-family: 'Lekton';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 35px;
+  color: #FFFFFF;
+
+}
+header ul a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  opacity: 0.94;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1130px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  background: none;
+}
+header .Menu {
+  visibility: hidden;
+  width: 0;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  header nav {
+    visibility: hidden;
+    width: 0;
+  }
+  header .Request {
+    visibility: hidden;
+    width: 0;
+    display: none;
+  }
+  header .Menu {
+    visibility: visible;
+    width: auto;
+    display: block;
+  }
+  .headerContainer {
+    padding: 35px;
+  }
+}
+@media only screen and (max-width: 320px){
+ header #logo {
+  font-size: 24px;
+ }
+ header .button{
+  font-size: 15px;
+  padding: 10px 16px;
+ }
+}
