@@ -1,162 +1,174 @@
 #main {
-    padding-top: 92px;
-    overflow: hidden;
-  }
-  #main .BG {
-    background-image: url('../img/header/BG.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 70%;
-    width: 100%;
-    top: -92px;
-    position: absolute;
-    z-index: 0;
-  }
+  padding-top: 92px;
+  overflow: hidden;
+}
+
+#main .BG {
+  background-image: url('../img/header/BG.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 62%;
+  width: 100%;
+  top: -92px;
+  position: absolute;
+  z-index: 0;
+}
+
+#main h1 {
+  padding-top: 390px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 94px;
+  line-height: 108px;
+  color: #111439;
+}
+
+.gradient {
+  background-color: #111439;
+  background-image: linear-gradient(96.46deg, #C87C00 3.72%, #8B3208 31.05%, rgba(83, 32, 15, 0.82) 68.54%, #010420 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#main p {
+  margin-top: 20px;
+  color: #425466;
+}
+
+#main button {
+  margin-top: 40px;
+}
+
+#main h6 {
+  margin-top: 120px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #B2B7BE;
+}
+
+#main .clients {
+  margin: 65px auto;
+  padding: 0px 10px;
+}
+
+#main .follower {
+  position: absolute;
+  right: 142px;
+  top: 421px;
+}
+
+#main .growth {
+  position: absolute;
+  right: 160px;
+  top: 152px;
+}
+
+#main .likes {
+  position: absolute;
+  right: -222px;
+  top: 518px;
+}
+
+#main .media {
+  position: absolute;
+  right: -200px;
+  top: 184px;
+}
+
+@media only screen and (max-width: 1155px) {
   #main h1 {
-    padding-top: 390px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 94px;
-    line-height: 108px;
-    color: #111439;
+    padding-left: 15px;
   }
-  .gradient {
-    background-color: #111439;
-    background-image: linear-gradient(96.46deg, #C87C00 3.72%, #8B3208 31.05%, rgba(83, 32, 15, 0.82) 68.54%, #010420 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+
+  #main .BG {
+    min-height: 550px;
   }
+
   #main p {
-    margin-top: 20px;
-    color: #425466;
+    padding: 0px 15px 0px 15px;
   }
-  #main button {
-    margin-top: 40px;
+
+  #main .button {
+    margin-left: 15px;
   }
-  #main h6 {
-    margin-top: 120px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: #B2B7BE;
-  }
-  #main .clients {
-    margin: 65px;
-  }
-  #main .follower {
-    position: absolute;
-    right: 142px;
-    top: 421px;
-  }
-  #main .growth {
-    position: absolute;
-    right: 160px;
-    top: 152px;
-  }
-  #main .likes {
-    position: absolute;
-    right: -222px;
-    top: 518px;
-  }
-  #main .media {
-    position: absolute;
-    right: -200px;
-    top: 184px;
-  }
-@media only screen and (max-width: 1070px) {
-  #main .container{
+
+
+}
+
+@media only screen and (max-width: 1085px) {
+  #main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
-  #main .follower {
-    position: absolute;
-    right: 177px;
-    top: 85px;
-    width: 300px;
-    display:  none;
+
+  #main h1 {
+    padding-top: 202px;
   }
-  #main .BG{
-    height: 59%;
+
+  #main h6 {
+    margin-top: 50px;
   }
-  #main .growth {
-    position: absolute;
-    left: 79px;
-    top: 176px;
-    width: 133px;
-    display:  none;
-  }
-  #main .likes {
-    position: absolute;
-    right: -94px;
-    top: 253px;
-    width: 350px;
-    display:  none;
-  }
+
   #main .media {
-    position: absolute;
-    top: 157px;
-    left: 187px;
-    width: 224px;
-    display:  none;
+    display: none;
   }
-  #main .clients{
-   width: 80%;
-   margin: 65px;
+
+  #main .growth {
+    display: none;
   }
-  #main h1{
-    font-size: 71px;
-    line-height: 70px;
-    padding-top: 170px;
-    text-align: center;
+
+  #main .follower {
+    display: none;
   }
-  #main p{
-    font-size: 22px;
-    margin-top: 97px;
-    line-height: 30px;
-    text-align: center;
-  }
-  #main button {
-    font-size: 15px;
-    margin-top: 70px;
+
+  #main .likes {
+    display: none;
   }
 }
-@media only screen and (max-width: 1024px){
-  #main .BG{
-    height: 73%;
+
+@media only screen and (max-width: 605px) {
+  #main h1 {
+    font-size: 60px;
+    line-height: 72px;
+    padding: 202px 10px 0px 10px;
   }
-}
-@media only screen and (max-width: 768px){
-  #main .BG{
-    height: 48%;
-  }
-}
-@media only screen and (max-width: 320px){
-  #main h1{
-    font-size: 31px;
-    line-height: 34px;
-    padding: 120px 20px 0px 20px;
-  }
-  #main p{
+
+  #main p {
     font-size: 14px;
-    line-height: 26px;
-    padding: 0px 20px;
-    margin-top: 60px;
+    line-height: 20px;
   }
-  #main .BG{
-    height: 70%;
+
+  #main .BG {
+    height: 64%;
   }
-  #main h6{
+}
+
+@media only screen and (max-width: 380px) {
+  #main .clients {
     display: none;
   }
-  #main .clients{
+
+  #main .BG {
+    min-height: 30px;
+  }
+
+  #main h6 {
     display: none;
+  }
+
+  #main h1 {
+    font-size: 50px;
+    line-height: 60px;
+    padding-bottom: 60px;
+    padding-top: 150px;
   }
 }

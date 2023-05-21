@@ -20,7 +20,7 @@
 #solutions .item p {
   padding-bottom: 30px;
 }
-@media only screen and (max-width: 1070px){
+@media only screen and (max-width: 1170px){
   #solutions .container{
     display: flex;
     flex-direction: column;
@@ -49,56 +49,58 @@
     padding-bottom: 15px;
   }
 }
-@media only screen and (max-width: 320px){
-  #solutions{
-    padding-bottom: 40px;
+@media only screen and (max-width: 734px){
+  #solutions .likes{
+    height: 290px;
   }
   #solutions .item{
-    display: flex;
-    flex-direction: column;
+    column-gap: 20px;
   }
-  #solutions .learn {
-    padding-bottom: 45px;
+  #solutions .okay{
+    height: 240px;
   }
-  .earning{
+  #solutions .earning{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 660px){
+  #solutions{
+    padding-top: 50px;
+  }
+  #solutions .likes{
     display: none;
   }
-  .likes{
+  #solutions .okay{
     display: none;
   }
-  .okay{
+  #solutions .earning{
     display: none;
-  }
-  #solutions .item .content h4{
-    text-align: center;
-  }
-  #solutions .item .content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
   }
   #solutions .title{
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
-  #solutions .title h2{
-    line-height: 40px;
-    font-size: 35px;
-    padding-bottom: 15px;
+  #solutions .item {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    padding-bottom: 40px;
   }
-  #solutions .title p{
-    font-size: 14px;
-    text-align: center;
-  }
-  #solutions .item .content h3{
+}
+@media only screen and (max-width: 500px){
+  #solutions .title h2 {
     font-size: 25px;
-    padding: 4px 0px 8px 0px;
-    text-align: center;
+    padding: 0px 10px 0px 10px;
+    line-height: 40px;
   }
-  #solutions .item p{
-    font-size: 14px;
-    line-height: 20px;
-    padding-bottom: 15px;
-    text-align: center;
+  #solutions .title p {
+    padding: 0px 10px;
+  }
+  #solutions .item .content h3 {
+    font-size: 18px;
+    padding: 0px 0px 0px 0px;
+    line-height: 30px;
+  }
+  #solutions .item .content h4{
+    font-size: 12px;
   }
 }

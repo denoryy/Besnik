@@ -25,43 +25,25 @@
 #statistics .items p {
   text-align: left;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1162px){
   #statistics .items{
     padding: 0px 30px 120px 30px;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 620px){
   #statistics .title{
-    padding: 80px 0px 70px 0px;
+    padding: 100px 10px 90px 10px;
   }
-  #statistics h2{
-    font-size: 30px;
-    line-height: 30px;
+  #statistics .title h2{
+    font-size: 25px;
+    line-height: 40px;
   }
   #statistics .items{
-    padding-bottom: 80px;
-  }
-}
-@media only screen and (max-width: 320px){
-  #statistics{
-    padding: 40px 20px;
-  }
-  #statistics .items{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding-bottom: 40px;
-    column-gap: 87px;
-    row-gap: 26px;
-  }
-  #statistics .title{
-    padding: 60px 0px 50px 0px;
-  }
-  #statistics h2{
-    font-size: 20px;
-    line-height: 25px;
-  }
-  #statistics p{
-    font-size: 14px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 40px;
+   row-gap: 10px;
+   justify-content: center;
+   padding: 0px 30px 120px 60px;
   }
 }

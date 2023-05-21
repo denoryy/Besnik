@@ -7,6 +7,7 @@
   padding: 29px 0px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 #subscribe .wrapper h2 {
@@ -21,18 +22,13 @@
 }
 
 #subscribe .wrapper .content {
-  padding: 51px 0px 65px 0px;
+  padding: 51px 0px 72px 0px;
 }
 
 #subscribe .wrapper .button {
   margin: 0px 41%;
 }
 
-@media only screen and (max-width: 1024px) {
-  #subscribe .wrapper {
-    padding: 15px 0px;
-  }
-}
 
 @media only screen and (max-width: 768px) {
   #subscribe .wrapper {
@@ -41,10 +37,13 @@
 
   #subscribe .wrapper h2 {
     font-size: 30px;
+    padding: 0px 10px;
   }
 
   #subscribe .wrapper p {
     font-size: 14px;
+    padding: 0px 10px 30px 10px;
+    line-height: 20px;
   }
 
   #subscribe .content {
@@ -55,5 +54,15 @@
 
   #subscribe .content .button {
     margin: 0px 0px;
+  }
+}
+@media only screen and (max-width: 400px){
+  #subscribe .wrapper h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 272px){
+  #subscribe .wrapper h2 {
+    line-height: 30px;
   }
 }

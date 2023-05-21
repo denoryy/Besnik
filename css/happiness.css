@@ -1,12 +1,13 @@
-#happiness{
+#happiness {
   overflow: hidden;
 }
-#happiness h2 {
+
+#happiness .title h2 {
   text-align: center;
   padding: 70px 0px 10px 0px;
 }
 
-#happiness p {
+#happiness .title p {
   text-align: center;
   padding-bottom: 69px;
 }
@@ -57,56 +58,85 @@
   margin-top: 30px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1150px) {
   #happiness .content {
-    padding: 0px 25px 100px 25px;
+    padding: 0px 25px 70px 25px;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1032px) {
   #happiness .content {
-    column-gap: 100px;
+    display: flex;
+    column-gap: 0px;
+    justify-content: center;
   }
+
   #happiness .content .info p {
     font-size: 18px;
-    line-height: 20px;
-    padding-bottom: 33px;
+    padding-bottom: 35px;
   }
+
   #happiness .content .info .profile {
+    height: 42px;
     margin: 10px 0px 20px 0px;
   }
-  #happiness p {
-    padding-bottom: 40px;
+
+  #happiness .content .man {
+    height: 400px;
   }
 }
-@media only screen and (max-width: 320px){
-  #happiness .man{
+
+@media only screen and (max-width: 770px) {
+  #happiness .content .info p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #happiness .content .man {
+    height: 300px;
+  }
+
+  #happiness .content .bottom img {
     display: none;
   }
+}
+
+@media only screen and (max-width: 618px){
   #happiness h2{
-    padding: 0px 10px;
+    padding: 50px 10px 6px 10px;
+    font-size: 35px;
   }
-  #happiness p{
-    padding: 0px 10px;
+  #happiness .title p{
+    padding: 0px 10px 40px 10px;
+  }
+  #happiness p {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  #happiness .content .info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  #happiness .content .man {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 526px){
+  #happiness .content .man{
+    display: none;
   }
   #happiness .content{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-bottom: 60px;
-  }
-  #happiness .content .info{
-    padding-top: 20px;
+    text-align: center;
   }
   #happiness .content .info p{
     text-align: center;
+    font-size: 18px;
   }
   #happiness .content .bottom{
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  #happiness .content .bottom img{
-    display: none;
   }
 }

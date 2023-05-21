@@ -56,13 +56,42 @@
 #clients .item .data .violet {
   color: #b33cdb;
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1160px){
   #clients .blocks{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 114px;
     padding: 80px 20px 172px 20px;
   }
-
+  #clients .item{
+    padding: 10px 25px 14px 13px;
+  }
+  #clients .item .data{
+    padding: 10px 0px 11px 0px;
+  }
+  #clients .item h2{
+    font-size: 14px;
+  }
+  #clients .item .data h2{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 900px){
+  #clients .blocks{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+    #clients .block {
+      margin-bottom: 150px;
+    }
+}
+@media only screen and (max-width: 560px){
+  #clients .title{
+    padding: 70px 15px 0px 15px;
+  }
+  #clients .title h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #clients .title p{
+    font-size: 14px;
+  }
 }
